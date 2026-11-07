@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acme Group — грузоперевозки по Казахстану и в Россию</title>
+<meta name="description" content="Транспортная компания Acme Group: ежедневные рейсы Астана — Караганда — Балхаш — Темиртау, грузоперевозки в Москву и Казань, квартирные и офисные переезды. Карагандинская область.">
+<meta name="theme-color" content="#0b2a1c">
+<meta property="og:title" content="Acme Group — ваш груз под надёжной защитой">
+<meta property="og:description" content="Ежедневные рейсы по Казахстану, направления в Россию, автопарк до 22 тонн.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <svg class="pre-logo" viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="54" class="pre-ring"/>
+    <text x="60" y="74" text-anchor="middle" class="pre-text">AG</text>
+  </svg>
+</div>
+
+<div class="cursor-glow" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+<!-- Header -->
+<header class="nav" id="nav">
+  <a href="#top" class="brand" aria-label="Acme Group — на главную">
+    <svg viewBox="0 0 48 48" class="brand-mark" aria-hidden="true">
+      <circle cx="24" cy="24" r="23" fill="#0f3a26"/>
+      <ellipse cx="24" cy="24" rx="17" ry="9" transform="rotate(-28 24 24)" fill="none" stroke="url(#g1)" stroke-width="1.6"/>
+      <text x="24" y="30" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="800" font-size="16" fill="url(#g1)">AG</text>
+      <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dc93"/><stop offset=".55" stop-color="#d4a640"/><stop offset="1" stop-color="#9c7322"/></linearGradient></defs>
+    </svg>
+    <span class="brand-text"><b>ACME GROUP</b><small>транспортная компания</small></span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">О компании</a>
+    <a href="#services">Деятельность</a>
+    <a href="#routes">География</a>
+    <a href="#fleet">Автопарк</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <a class="btn btn-gold nav-cta" href="https://wa.me/77000000000" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.4 14.2c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .3-3.4-.7-2.9-1.1-4.7-4.1-4.8-4.3-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2Z"/></svg>
+    <span>8 700 000 00 00</span>
+  </a>
+  <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="orb orb-1"></div><div class="orb orb-2"></div>
+    <div class="grid-dots"></div>
+  </div>
+
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow reveal"><span class="pulse"></span>Транспортная компания · Карагандинская область</p>
+      <h1 class="hero-title">
+        <span class="line"><span class="word">Ваш груз</span></span>
+        <span class="line"><span class="word">под <em class="gold-text">надёжной</em></span></span>
+        <span class="line"><span class="word">защитой</span></span>
+      </h1>
+      <p class="hero-sub reveal">Acme Group — транспортная компания из Карагандинской области. Мы занимаемся грузоперевозками, карго и логистикой по Казахстану и в Россию — для частных лиц и бизнеса.</p>
+      <div class="hero-actions reveal">
+        <a href="#about" class="btn btn-gold magnetic">О компании <span class="arrow">→</span></a>
+        <a href="#contacts" class="btn btn-ghost magnetic">Контакты</a>
+      </div>
+
+      <dl class="stats">
+        <div class="stat reveal"><dt><span class="count" data-to="4">0</span></dt><dd>города — ежедневные рейсы</dd></div>
+        <div class="stat reveal"><dt>до <span class="count" data-to="22">0</span> т</dt><dd>грузоподъёмность</dd></div>
+        <div class="stat reveal"><dt><span class="count" data-to="3">0</span></dt><dd>направления в Россию</dd></div>
+        <div class="stat reveal"><dt><span class="count" data-to="35">0</span> м³</dt><dd>объём фургона для переездов</dd></div>
+      </dl>
+    </div>
+
+    <!-- Animated route map -->
+    <div class="hero-map reveal" aria-label="Карта маршрутов Acme Group">
+      <svg viewBox="0 0 520 520" class="map">
+        <defs>
+          <linearGradient id="routeGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f6dc93"/><stop offset="1" stop-color="#c9952f"/>
+          </linearGradient>
+          <radialGradient id="nodeGlow"><stop offset="0" stop-color="#f6dc93" stop-opacity=".7"/><stop offset="1" stop-color="#f6dc93" stop-opacity="0"/></radialGradient>
+        </defs>
+
+        <circle cx="260" cy="260" r="250" class="map-ring"/>
+        <circle cx="260" cy="260" r="190" class="map-ring r2"/>
+        <circle cx="260" cy="260" r="125" class="map-ring r3"/>
+        <g class="radar"><path d="M260 260 L260 10 A250 250 0 0 1 437 83 Z"/></g>
+
+        <!-- routes -->
+        <path id="r-ast-kar" class="route" d="M318 120 C 330 165, 330 200, 322 236"/>
+        <path id="r-kar-zhez" class="route" d="M322 236 C 270 270, 220 300, 176 330"/>
+        <path id="r-zhez-sat" class="route" d="M176 330 C 190 350, 205 365, 222 378"/>
+        <path id="r-kar-msk" class="route long" d="M322 236 C 250 150, 150 90, 52 70"/>
+        <path id="r-ast-nn" class="route long" d="M318 120 C 260 70, 180 40, 96 30"/>
+
+        <!-- moving trucks -->
+        <circle r="5" class="mover"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#r-kar-zhez"/></animateMotion></circle>
+        <circle r="5" class="mover"><animateMotion dur="3.6s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#r-ast-kar"/></animateMotion></circle>
+        <circle r="4" class="mover m2"><animateMotion dur="8s" repeatCount="indefinite"><mpath href="#r-kar-msk"/></animateMotion></circle>
+        <circle r="4" class="mover m2"><animateMotion dur="9s" begin="2s" repeatCount="indefinite"><mpath href="#r-ast-nn"/></animateMotion></circle>
+        <circle r="4" class="mover"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#r-zhez-sat"/></animateMotion></circle>
+
+        <!-- nodes -->
+        <g class="node" transform="translate(318 120)"><circle r="26" fill="url(#nodeGlow)"/><circle r="7" class="dot"/><text x="14" y="-10">Астана</text></g>
+        <g class="node" transform="translate(322 236)"><circle r="26" fill="url(#nodeGlow)"/><circle r="7" class="dot"/><text x="14" y="5">Караганда</text></g>
+        <g class="node" transform="translate(176 330)"><circle r="26" fill="url(#nodeGlow)"/><circle r="7" class="dot"/><text x="-14" y="-12" text-anchor="end">Балхаш</text></g>
+        <g class="node" transform="translate(222 378)"><circle r="26" fill="url(#nodeGlow)"/><circle r="7" class="dot"/><text x="14" y="18">Темиртау</text></g>
+        <g class="node far" transform="translate(52 70)"><circle r="5" class="dot"/><text x="0" y="22" text-anchor="middle">Москва</text></g>
+        <g class="node far" transform="translate(96 30)"><circle r="5" class="dot"/><text x="12" y="4">Казань</text></g>
+      </svg>
+      <div class="map-badge">
+        <span class="live"></span> Рейсы каждый день
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-hint" aria-label="Листать вниз"><span></span></a>
+</section>
+
+<!-- Marquee -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Астана</span><i>✦</i><span>Караганда</span><i>✦</i><span>Балхаш</span><i>✦</i><span>Темиртау</span><i>✦</i><span>Москва</span><i>✦</i><span>Казань</span><i>✦</i>
+    <span>Астана</span><i>✦</i><span>Караганда</span><i>✦</i><span>Балхаш</span><i>✦</i><span>Темиртау</span><i>✦</i><span>Москва</span><i>✦</i><span>Казань</span><i>✦</i>
+  </div>
+</div>
+
+<!-- About -->
+<section class="section about-section" id="about">
+  <div class="container about">
+    <div class="about-head">
+      <p class="eyebrow reveal">01 — О компании</p>
+      <h2 class="reveal">Надёжный перевозчик<br>из сердца <span class="gold-text">Сарыарки</span></h2>
+    </div>
+    <div class="about-body">
+      <p class="about-lead reveal">Acme Group — транспортная компания, которая связывает города Карагандинской области с крупнейшими центрами Казахстана и России.</p>
+      <p class="reveal">Каждый день наши машины выходят в рейсы между Астаной, Карагандой, Балхашем и Темиртау, а дальние направления ведут в Москву и Казань. Мы перевозим коммерческие грузы, сборные партии и карго, помогаем с квартирными, офисными и дачными переездами.</p>
+      <p class="reveal">Собственный автопарк — от компактного фургона до тягачей Volvo и DAF — позволяет подобрать машину под любую задачу. Наш главный принцип прост: относиться к каждому грузу как к своему.</p>
+      <div class="about-facts reveal">
+        <div><b>Регион</b><span>Карагандинская область</span></div>
+        <div><b>Специализация</b><span>Грузоперевозки · Карго · Логистика</span></div>
+        <div><b>Клиенты</b><span>Частные лица и компании</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">02 — Чем мы занимаемся</p>
+      <h2 class="reveal">Направления<br><span class="gold-text">деятельности</span></h2>
+    </div>
+    <div class="services">
+      <article class="card service tilt reveal">
+        <div class="ico"><svg viewBox="0 0 48 48"><path d="M4 30V14h24v16M28 20h9l7 7v3h-16"/><circle cx="13" cy="34" r="4"/><circle cx="35" cy="34" r="4"/></svg></div>
+        <h3>Грузоперевозки по Казахстану</h3>
+        <p>Ежедневные рейсы между Астаной, Карагандой, Балхашем и Темиртау. Доставка оперативно и без задержек.</p>
+        <span class="tag">ежедневно</span>
+      </article>
+      <article class="card service tilt reveal">
+        <div class="ico"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M6 24h36M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36"/></svg></div>
+        <h3>Межгород в Россию</h3>
+        <p>Караганда — Москва, Караганда — Казань, Астана — Казань. Надёжные Volvo FH до 22 тонн.</p>
+        <span class="tag">3 направления</span>
+      </article>
+      <article class="card service tilt reveal">
+        <div class="ico"><svg viewBox="0 0 48 48"><path d="M8 22 24 8l16 14v18H8z"/><path d="M19 40V28h10v12"/></svg></div>
+        <h3>Квартирные переезды</h3>
+        <p>Аккуратно упакуем, погрузим и доставим мебель и технику. Относимся к каждой вещи как к своей.</p>
+        <span class="tag">бережно</span>
+      </article>
+      <article class="card service tilt reveal">
+        <div class="ico"><svg viewBox="0 0 48 48"><rect x="8" y="6" width="22" height="36"/><path d="M30 18h10v24H30M14 12h4M22 12h2M14 20h4M22 20h2M14 28h4M22 28h2"/></svg></div>
+        <h3>Офисные переезды</h3>
+        <p>Перевезём офис или склад в удобное время, чтобы ваша работа не останавливалась.</p>
+        <span class="tag">для компаний</span>
+      </article>
+      <article class="card service tilt reveal">
+        <div class="ico"><svg viewBox="0 0 48 48"><path d="M6 40h36M12 40V24l12-10 12 10v16"/><path d="M38 14c0-4 3-6 6-6-1 4-3 6-6 6Z"/><path d="M20 40v-8h8v8"/></svg></div>
+        <h3>Дачные переезды</h3>
+        <p>Сезонные переезды на дачу и обратно — мебель, инвентарь, стройматериалы.</p>
+        <span class="tag">сезонно</span>
+      </article>
+      <article class="card service tilt reveal">
+        <div class="ico"><svg viewBox="0 0 48 48"><path d="M24 4 42 14v20L24 44 6 34V14z"/><path d="M6 14l18 10 18-10M24 24v20"/></svg></div>
+        <h3>Карго и сборные грузы</h3>
+        <p>Отправим даже небольшую партию — для частных лиц и компаний. Универсальные решения под ваш груз.</p>
+        <span class="tag">любой объём</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Routes -->
+<section class="section routes-section" id="routes">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">03 — География</p>
+      <h2 class="reveal">Ежедневные рейсы<br>и дальние <span class="gold-text">направления</span></h2>
+    </div>
+
+    <div class="routes">
+      <div class="route-col reveal">
+        <h3 class="route-title"><span class="live"></span>Каждый день по Казахстану</h3>
+        <ul class="route-list">
+          <li><span>Астана</span><i class="rline"></i><span>Балхаш</span></li>
+          <li><span>Караганда</span><i class="rline"></i><span>Балхаш</span></li>
+          <li><span>Балхаш</span><i class="rline"></i><span>Темиртау</span></li>
+          <li><span>Астана</span><i class="rline"></i><span>Темиртау</span></li>
+        </ul>
+      </div>
+      <div class="route-col reveal">
+        <h3 class="route-title"><span class="live amber"></span>Направления в Россию</h3>
+        <ul class="route-list">
+          <li><span>Караганда</span><i class="rline"></i><span>Москва</span></li>
+          <li><span>Караганда</span><i class="rline"></i><span>Казань</span></li>
+          <li><span>Астана</span><i class="rline"></i><span>Казань</span></li>
+        </ul>
+        <p class="route-note">Также выполняем перевозки по всему Казахстану под заказ.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fleet -->
+<section class="section fleet-section" id="fleet">
+  <div class="container">
+    <div class="section-head split">
+      <div>
+        <p class="eyebrow reveal">04 — Автопарк</p>
+        <h2 class="reveal">Машина под<br><span class="gold-text">любой груз</span></h2>
+      </div>
+      <p class="section-lead reveal">От компактного фургона для переезда до тягача для дальнего рейса — техника, которой мы доверяем грузы наших клиентов.</p>
+    </div>
+
+    <div class="fleet">
+      <article class="truck-card reveal" data-cap="22">
+        <div class="truck-top"><span class="truck-class">Тягач</span><span class="truck-ton"><b>22</b> т</span></div>
+        <svg class="truck-art" viewBox="0 0 300 110"><g class="t-body"><rect x="4" y="20" width="200" height="62" rx="4"/><path d="M208 40h44l26 22v20h-70z"/><rect x="226" y="46" width="28" height="16" rx="2" class="win"/></g><g class="wheel"><circle cx="40" cy="88" r="12"/><circle cx="70" cy="88" r="12"/><circle cx="170" cy="88" r="12"/><circle cx="252" cy="88" r="12"/></g></svg>
+        <h3>Volvo FH</h3>
+        <p>Дальние рейсы в Россию. Надёжный тягач для крупных партий.</p>
+        <div class="cap"><span style="--w:100%"></span></div>
+        <small>грузоподъёмность до 22 тонн</small>
+      </article>
+      <article class="truck-card reveal" data-cap="20">
+        <div class="truck-top"><span class="truck-class">Тягач</span><span class="truck-ton"><b>20</b> т</span></div>
+        <svg class="truck-art" viewBox="0 0 300 110"><g class="t-body"><rect x="4" y="22" width="196" height="60" rx="4"/><path d="M204 30h40l30 30v22h-70z"/><rect x="222" y="40" width="26" height="18" rx="2" class="win"/></g><g class="wheel"><circle cx="40" cy="88" r="12"/><circle cx="70" cy="88" r="12"/><circle cx="168" cy="88" r="12"/><circle cx="248" cy="88" r="12"/></g></svg>
+        <h3>DAF XF105</h3>
+        <p>Полуприцеп 13,5 метра — для объёмных и тяжёлых грузов.</p>
+        <div class="cap"><span style="--w:91%"></span></div>
+        <small>13,5 м · до 20 тонн</small>
+      </article>
+      <article class="truck-card reveal" data-cap="10">
+        <div class="truck-top"><span class="truck-class">Грузовик</span><span class="truck-ton"><b>10</b> т</span></div>
+        <svg class="truck-art" viewBox="0 0 300 110"><g class="t-body"><rect x="40" y="26" width="160" height="56" rx="4"/><path d="M204 40h40l26 22v20h-66z"/><rect x="222" y="46" width="26" height="16" rx="2" class="win"/></g><g class="wheel"><circle cx="80" cy="88" r="12"/><circle cx="170" cy="88" r="12"/><circle cx="246" cy="88" r="12"/></g></svg>
+        <h3>Mercedes 7,4 м</h3>
+        <p>Межгород и крупные переезды. Оптимальный баланс объёма и цены.</p>
+        <div class="cap"><span style="--w:45%"></span></div>
+        <small>7,4 м · до 10 тонн</small>
+      </article>
+      <article class="truck-card reveal" data-cap="5">
+        <div class="truck-top"><span class="truck-class">Фургон</span><span class="truck-ton"><b>5</b> т</span></div>
+        <svg class="truck-art" viewBox="0 0 300 110"><g class="t-body"><rect x="60" y="30" width="140" height="52" rx="4"/><path d="M204 44h36l24 20v18h-60z"/><rect x="220" y="50" width="24" height="14" rx="2" class="win"/></g><g class="wheel"><circle cx="100" cy="88" r="12"/><circle cx="174" cy="88" r="12"/><circle cx="240" cy="88" r="12"/></g></svg>
+        <h3>Mercedes 6,2 м</h3>
+        <p>Квартирные, офисные и дачные переезды, ежедневные рейсы по городам.</p>
+        <div class="cap"><span style="--w:23%"></span></div>
+        <small>6,2 м · 35 м³ · до 5 тонн</small>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Why -->
+<section class="section why-section" id="why">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">05 — Наши ценности</p>
+      <h2 class="reveal">Три принципа<br><span class="gold-text">Acme Group</span></h2>
+    </div>
+    <div class="why">
+      <div class="why-item reveal">
+        <span class="why-num">01</span>
+        <h3>Скорость</h3>
+        <p>Доставляем оперативно и без задержек. Ежедневные рейсы — груз не ждёт неделю «попутку».</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-num">02</span>
+        <h3>Бережность</h3>
+        <p>Относимся к каждому грузу как к своему: аккуратная погрузка, крепление и контроль в пути.</p>
+      </div>
+      <div class="why-item reveal">
+        <span class="why-num">03</span>
+        <h3>Универсальность</h3>
+        <p>Работаем с частными лицами и компаниями. От переезда квартиры до фуры в Москву.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Community -->
+<section class="section community-section" id="community">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">06 — Деловая жизнь</p>
+      <h2 class="reveal">Растём вместе<br>с <span class="gold-text">регионом</span></h2>
+    </div>
+    <div class="events">
+      <article class="event card reveal">
+        <span class="event-date">Сентябрь 2026 · Астана</span>
+        <h3>Отраслевая выставка 2026</h3>
+        <p>Компания посетила международную выставку строительной и горнодобывающей техники в «EXPO», Астана, — следим за развитием отрасли и техники.</p>
+      </article>
+      <article class="event card reveal">
+        <span class="event-date">Регион</span>
+        <h3>Деловой клуб Сарыарки</h3>
+        <p>Участвуем в жизни ассоциации предпринимателей «Деловой клуб Сарыарки» и деловых мероприятиях региона.</p>
+      </article>
+      <article class="event card reveal">
+        <span class="event-date">Каждый день</span>
+        <h3>Рейсы по расписанию</h3>
+        <p>Ежедневные рейсы между городами области и столицей — стабильная связь региона с Астаной и Карагандой.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Contacts -->
+<section class="section order-section" id="contacts">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">07 — Контакты</p>
+      <h2 class="reveal">Свяжитесь<br>с <span class="gold-text">нами</span></h2>
+    </div>
+    <div class="contact-grid">
+      <a class="contact-card card tilt reveal" href="https://wa.me/77000000000" target="_blank" rel="noopener">
+        <span>WhatsApp</span><b>+7 700 000 00 00</b><i>Написать →</i>
+      </a>
+      <a class="contact-card card tilt reveal" href="tel:+77000000000">
+        <span>Телефон</span><b>8 700 000 00 00</b><i>Позвонить →</i>
+      </a>
+      <a class="contact-card card tilt reveal" href="https://www.instagram.com/acme_group_demo/" target="_blank" rel="noopener">
+        <span>Instagram</span><b>@acme_group_demo</b><i>Открыть →</i>
+      </a>
+      <a class="contact-card card tilt reveal" href="https://www.instagram.com/acme_cargo_demo/" target="_blank" rel="noopener">
+        <span>Instagram</span><b>@acme_cargo_demo</b><i>Открыть →</i>
+      </a>
+    </div>
+    <p class="contact-region reveal">Карагандинская область, Казахстан · Балхаш · Темиртау</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <b>ACME GROUP</b>
+      <p>Грузоперевозки · Карго · Логистика<br>Карагандинская область</p>
+    </div>
+    <div class="footer-links">
+      <a href="#about">О компании</a><a href="#routes">География</a><a href="#fleet">Автопарк</a><a href="#contacts">Контакты</a>
+    </div>
+    <div class="footer-contacts">
+      <a href="tel:+77000000000">+7 700 000 00 00</a>
+      <a href="https://www.instagram.com/acme_group_demo/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© <span id="year">2026</span> Acme Group. Ваш груз под надёжной защитой.</div>
+  <div class="footer-giant" aria-hidden="true">ACME GROUP</div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/77000000000" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.4 14.2c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .3-3.4-.7-2.9-1.1-4.7-4.1-4.8-4.3-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
